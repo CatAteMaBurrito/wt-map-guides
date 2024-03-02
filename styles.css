@@ -44,6 +44,10 @@ body {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 120px 312px 96px;
 }
 
 .quote-text {
@@ -54,7 +58,11 @@ body {
 }
 
 .quote-guy {
+    align-self: flex-end;
     font-weight: bold;
+    font-size: 24px;
+    color: #1f2937;
+    padding-right: 24px;
 }
 
 .call-to-action {
