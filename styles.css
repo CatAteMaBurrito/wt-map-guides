@@ -33,10 +33,13 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
+    padding: 48px;
 }
 
 .info-subtext {
     color: #585656;
+    font-size: 18px;
 }
 
 .quote {
@@ -129,4 +132,26 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info-container {
+    display: flex;
+    padding: 0px 312px;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.info {
+    flex-basis: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info-image {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
 }
