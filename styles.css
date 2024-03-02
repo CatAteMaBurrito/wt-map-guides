@@ -65,16 +65,28 @@ body {
     padding-right: 24px;
 }
 
+.call-to-action-bg {
+    padding: 104px 200px;
+}
+
 .call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
+    padding: 48px 120px;
+    border-radius: 8px;
 }
 
 .call-to-action-header {
     color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .call-to-action-subtext {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .footer {
